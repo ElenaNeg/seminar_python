@@ -17,6 +17,7 @@
 x = int(input('Введите число x '))
 y = int(input('Введите число y '))
 z = int(input('Введите число z '))
+
 for x in range(2):
         for y in range(2):
             for z in range(2):
