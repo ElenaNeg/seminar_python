@@ -58,12 +58,12 @@
 # Задача 5.	Реализуйте алгоритм перемешивания списка 
 # (shuffle использовать нельзя, другие методы из библиотеки random - можно).
 
-import random
-list = [0, 1, 2, 3, 4]
-for i in range(0, len(list)):
-    a = random.randint(0, len(list) - 1)
-    list[i], list[a] = list[a], list[i]
-print(list)
+# import random
+# list = [0, 1, 2, 3, 4]
+# for i in range(0, len(list)):
+#     a = random.randint(0, len(list) - 1)
+#     list[i], list[a] = list[a], list[i]
+# print(list)
 
 
 
